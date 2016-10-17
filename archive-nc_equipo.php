@@ -24,7 +24,7 @@
  ?> <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php
 		// Post thumbnail.
-		// twentyfifteen_post_thumbnail();
+		// NC_post_thumbnail();
 	?>
 
 
@@ -57,18 +57,18 @@
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
-				__( 'Continue reading %s', 'twentyfifteen' ),
+				__( 'Continue reading %s', 'nciudadanos' ),
 				the_title( '<span class="screen-reader-text">', '</span>', false )
 			) );
 
-            edit_post_link( __( 'Editar', 'NC' ), '<span class="edit-link btn btn-default btn-block" style="margin-bottom:10px;">', '</span>' );
+            edit_post_link( __( 'Editar', 'nciudadanos' ), '<span class="edit-link btn btn-default btn-block" style="margin-bottom:10px;">', '</span>' );
 
 			wp_link_pages( array(
-				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentyfifteen' ) . '</span>',
+				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'nciudadanos' ) . '</span>',
 				'after'       => '</div>',
 				'link_before' => '<span>',
 				'link_after'  => '</span>',
-				'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'twentyfifteen' ) . ' </span>%',
+				'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'nciudadanos' ) . ' </span>%',
 				'separator'   => '<span class="screen-reader-text">, </span>',
 			) );
 		?>
@@ -86,9 +86,9 @@
 
 			// Previous/next page navigation.
 			the_posts_pagination( array(
-				'prev_text'          => __( 'Previous page', 'NC' ),
-				'next_text'          => __( 'Next page', 'NC' ),
-				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'NC' ) . ' </span>',
+				'prev_text'          => __( 'Previous page', 'nciudadanos' ),
+				'next_text'          => __( 'Next page', 'nciudadanos' ),
+				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'nciudadanos' ) . ' </span>',
 			) );
 
 		// If no content, include the "No posts found" template.

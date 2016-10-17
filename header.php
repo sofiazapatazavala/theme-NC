@@ -7,7 +7,7 @@
     <title><?php wp_title(''); ?></title>
 
 	<!-- Estilos -->
-      
+
 	<!-- Bootstrap -->
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
 	<!-- Kit de Typekit para Bebas Neue -->
@@ -17,7 +17,7 @@
     <!-- Estilos de WordPress -->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-    
+
     <?php wp_head(); ?>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -75,6 +75,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <?php /* Línea celeste para separar header del contenido */ ?>
+        <div class="row fondo-celeste padding-xs">
         </div>
 
       </div>

@@ -104,7 +104,7 @@ get_header(); ?>
                         </header>
 
                         <footer class="entry-footer">
-                            <?php edit_post_link( __( 'Editar', 'NC' ), '<span class="edit-link btn btn-default btn-block" style="margin-bottom:10px;">', '</span>' ); ?>
+                            <?php edit_post_link( __( 'Editar', 'nciudadanos' ), '<span class="edit-link btn btn-default btn-block" style="margin-bottom:10px;">', '</span>' ); ?>
                         </footer><!-- .entry-footer -->
 
                     </article></div><!-- #post-## -->

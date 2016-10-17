@@ -69,7 +69,7 @@ if ( is_search() ) {
           	<br class="visible-xs">
  
  	<footer class="entry-footer clearfix">
-		<?php edit_post_link( __( 'Editar', 'NC' ), '<span class="edit-link btn btn-default btn-block" style="margin:5px 0;">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Editar', 'nciudadanos' ), '<span class="edit-link btn btn-default btn-block" style="margin:5px 0;">', '</span>' ); ?>
             	<?php if ( is_single() && has_tag() ) { 
 		 the_tags( 'Etiquetas: <span class="btn btn-default">', '</span>&nbsp;<span class="btn btn-default">', '</span>' );
 		}
