@@ -17,7 +17,7 @@ set_post_thumbnail_size( 150, 150, true ); // default Post Thumbnail dimensions 
 // Tamaños adicionales
 add_image_size( '4-columnas', 360, 300, true  );
 add_image_size( '6-columnas', 550, 320, true  );
-add_image_size( '8-columnas', 740, 370, true  );
+add_image_size( '8-columnas', 750, 370, true  );
 add_image_size( '12-columnas', 1170, 400, true  );
 add_image_size( 'portada', 390, 260, true  );
 add_image_size( 'equipo', 360, 360, true  );

@@ -5,7 +5,7 @@ Theme URI: https://www.nosotrosciudadanos.cl
 Author: Sofía Zapata Zavala
 Author URI: http://www.szz.cl/
 Description: Tema para la Fundación Nosotros Ciudadanos
-Version: 1.1.0-beta1
+Version: 1.1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: white, blue, two columns, full width
@@ -192,4 +192,15 @@ a img.aligncenter {
 
 #loop-destacado {
   color: #FFF;
+}
+
+.titulo-single {
+  min-height: 360px; position: relative; margin-bottom: 1em; background-size: cover;
+}
+.titular {
+  position: absolute;
+  bottom: .5em;
+  padding: .5em;
+  margin: .5em;
+  color: #fff;
 }

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="container-fluid">
+<div class="container">
     <div class="row">
     <div class="content-area col-xs-12">
 
@@ -7,7 +7,7 @@
 
 			<?php
 			// Start the loop.
-			while ( have_posts() ) : the_post(); 
+			while ( have_posts() ) : the_post();
 			if ( in_array( $post->ID, array($do_not_duplicate) ) ) continue;
 
 				/*
@@ -38,7 +38,7 @@
 
 		endif;
 		?>
-        
+
 
 
 	</div><!-- .content-area --></div>
