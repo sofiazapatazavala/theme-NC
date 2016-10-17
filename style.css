@@ -1,0 +1,193 @@
+/*
+
+Theme Name: Nosotros Ciudadanos
+Theme URI: https://www.nosotrosciudadanos.cl
+Author: SZZ
+Author URI: http://www.szz.cl/
+Description: Tema para la Fundación Nosotros Ciudadanos
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, blue, two columns, full width
+Text Domain: nciudadanos
+
+*/
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+
+/* Personalizado */
+
+.fondo-gris {
+  background-color: #eee;
+}
+.fondo-celeste {
+  background-color: #6898b2;
+}
+.foto-portada {
+  min-height: 100vh;
+}
+.header-logo {
+  padding: .5em 0;
+}
+.header,
+.texto-blanco {
+  color: #fff;
+}
+.margin-1_5-0 {
+  margin: 1.5em 0;
+}
+.the-content {
+  padding-bottom: 2em;
+}
+.gran-imagen {
+  min-height: 100vh;
+}
+.gran-imagen:before {
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#21abc7), to(#616db3)) repeat scroll 0 0;
+  background: transparent -webkit-linear-gradient(top, #21abc7, #616db3) repeat scroll 0 0;
+  background: transparent -o-linear-gradient(top, #21abc7, #616db3) repeat scroll 0 0;
+  background: transparent linear-gradient(to bottom, #21abc7, #616db3) repeat scroll 0 0;
+}
+
+.gran-imagen { min-height: 100vh; }
+.margin-sm { margin: 0.5em auto; }
+.margin-md { margin: 1em auto; }
+.margin-lg { margin: 1.5em auto; }
+
+.padding-sm { padding: 0.5em 0; }
+.padding-md { padding: 1em 0; }
+.padding-lg { padding: 1.5em 0; }
+
+.img-equipo-hover { display: none; }
+.img-equipo, .img-equipo-hover { max-width: 80%; }
+
+.entry-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.categoria-portada {
+
+}
+.categoria-portada a::before {
+  content: "- ";
+}
+.categoria-portada a::after {
+  content: " -";
+}
+.equipo-container {
+  min-height: 530px;
+}
+.equipo-container-logged-in {
+  min-height: 570px;
+}
+
+#loop-destacado {
+  color: #FFF;
+}
