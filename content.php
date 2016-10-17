@@ -21,7 +21,7 @@
                 <?php edit_post_link( 'Editar', '<h6 class="text-right editar">', '</h6>' ); ?>
             </div>
         </div>
-        <hr class="sep-gris-claro">
+        <hr />
       </div>
     </div>
     <?php
@@ -41,6 +41,11 @@
       </div>
     </div>
     <?php } ?>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <hr />
+      </div>
+    </div>
     <?php
   } ?>
 
