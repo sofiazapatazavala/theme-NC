@@ -68,10 +68,10 @@
             <div class="col-sm-2">
                 <div class="row">
                     <div class="col-xs-2 col-xs-offset-4 col-sm-4 col-sm-offset-2">
-                        <a href="https://www.facebook.com/NosotrosCiudadanos" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/redes_fb_grande.png" class="center-block margin-lg" style="max-width:30px;" /></a>
+                        <a href="https://www.facebook.com/NosotrosCiudadanos" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/redes_fb_grande.png" class="center-block margin-xl" style="max-width:30px;" /></a>
                     </div>
                     <div class="col-xs-2 col-sm-4">
-                        <a href="https://twitter.com/NCiudadanos" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/redes_tw_grande.png" class="center-block margin-lg" style="max-width:30px;" /></a>
+                        <a href="https://twitter.com/NCiudadanos" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/img/redes_tw_grande.png" class="center-block margin-xl" style="max-width:30px;" /></a>
                     </div>
                 </div>
             </div>
