@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Portada
+Template Name: Prueba
 */
 
 get_header(); ?>
@@ -100,8 +100,6 @@ get_header(); ?>
                             <?php the_title( sprintf( '<h3 class="text-center"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h3>' ) ?>
 
                             <p><?php the_excerpt(); ?></p>
-
-                            <a href="<?php echo esc_url( get_permalink() ); ?>" class="btn btn-default" role="button">Ver más</a>
 
                         </header>
 
