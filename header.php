@@ -1,15 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><?php wp_title(''); ?></title>
 
-	<!-- Estilos -->
+    <?php
+    /* Estilos:
+        1) Se usará Bootstrap 4.1 y _s como base. Por ahora, ese código estará escondido.
+        2) Los estilos de WordPress tendrán prioridad.
+        3) Se buscará tener menos dependencias externas.
+    */
+    ?>
+
+    <?php /* BS 4.1 */ ?>
+    <?php /* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> */ ?>
 
 	<!-- Bootstrap -->
-    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css">
 	<!-- Kit de Typekit para Bebas Neue -->
     <script src="https://use.typekit.net/tun5zdj.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
